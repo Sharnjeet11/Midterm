@@ -1,12 +1,12 @@
 /* Banner with background */
-div#topbanner {
-    background: url(images/preview16.jpg);
+div#hippo-image {
+    background: url(images/Fun-hippopotamus-facts-1536x1024.jpg);
     background-size: cover;
     background-position: center;
 }
 
 /* text that shows over the banner */
-div#topbanner h1 {
+div#hippo-image h1 {
     text-align: center;
     padding: 265px 0px 75px;
     margin: 0px;
@@ -14,12 +14,12 @@ div#topbanner h1 {
     font-size: 50px;
 }
 
-/*site body layout, reset default css for all browsers, site background, font size and google fonts*/
+/*site body layout*/
 body {
     padding: 0px;
     margin: 0px;
     font-size: 14px;
-    background: #aad4d0;
+    background: #c3c296;
 }
 
 div#main-content,
@@ -29,13 +29,13 @@ div#main-content,
 }
 
 main {
-    background: #d4e8e7;
+    background: white;
     max-width: 80%;
     margin: auto;
 }
 
-/* navigation list  */
-div#navigation ul {
+/* nav-s-list list  */
+div#nav-s-list ul {
     list-style: none;
     display: inline-flex;
     justify-content: space-evenly;
@@ -44,7 +44,7 @@ div#navigation ul {
     width: 100%;
 }
 
-div#navigation ul li {
+div#nav-s-list ul li {
     width: 100%;
     text-align: center;
     font-size: 20px;
@@ -52,7 +52,7 @@ div#navigation ul li {
     text-transform: uppercase;
 }
 
-div#navigation ul li:nth-child(2) {
+.story {
     border: 1px solid black;
     border-top: 0px;
     border-bottom: 0px;
@@ -67,20 +67,22 @@ div#main-content img {
     width: 100%;
 }
 
-.col-2 {
+.s-2 {
     width: 20%;
+    margin-left: 10px;
+    margin-right: 13px;
 }
 
-.col-10 {
+.s-10 {
     width: 80%;
 }
 
 h3 {
     font-size: 25px;
-    margin: 11px 0px;
+    margin: 11px 10px;
 }
 
-div#main-content p {
+div#m-content p {
     padding: 0px 18px;
     margin: 0px;
     font-size: 18px;
@@ -106,7 +108,7 @@ form {
     margin-bottom: 7px;
 }
 
-input[type="submit"] {
+#form-send {
     border: 1px solid black;
     width: 82px;
     font-size: 14px;
@@ -117,7 +119,7 @@ input[type="submit"] {
 }
 
 textarea#message {
-    height: 64PX;
+    height: 70PX;
 }
 
 /* footer */
